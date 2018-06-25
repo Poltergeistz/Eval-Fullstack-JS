@@ -7,6 +7,7 @@ var btn = document.getElementById('btn');
 // On click display the research
 btn.addEventListener('click', function (){
     var request = new XMLHttpRequest();
+    var search = document.getElementById('search').value;
     request.open('GET', 'https://www.googleapis.com/books/v1/volumes?q=' + search);
     request.onload = function(){
         var bookdata = JSON.parse(request.responseText);
@@ -16,7 +17,7 @@ btn.addEventListener('click', function (){
 });
 
 function searchBook(){
-    var search = document.getElementById('search').value;
+    
     document.getElementById('results').innerHTML = "";
     console.log(search);
 }
