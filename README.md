@@ -7,4 +7,7 @@ Deux branches sont disponibles :
 Livrables disponibles dans le dossier livrable.
 L'architecture du site est disponible sur le dossier Site Mediathèque.
 
+Kanban :
+- https://trello.com/b/M4w2Z54a/fullstack-js
+
 URL du projet :
