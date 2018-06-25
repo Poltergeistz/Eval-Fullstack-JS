@@ -1,3 +1,5 @@
 Site Mediatheque v0.1
 
-- Framework css : Bootstrap
+Structure du site en HTML sans Framework css.
+
+Choix du Framework Bulma.
