@@ -1,6 +1,6 @@
 // API Google Books
 var search = document.getElementById('search').value;
-var apibooks ="https://www.googleapis.com/books/v1/volumes?q="+search+"&key=AIzaSyDryhDj129-9EgUtLOqE3zFvIkuSH3Tx3Y" ; // AIzaSyDryhDj129-9EgUtLOqE3zFvIkuSH3Tx3Y
+var apibooks ="https://www.googleapis.com/books/v1/volumes?q="+search;
 
 // DOM
 var btn = document.getElementById('btn');
