@@ -7,10 +7,14 @@ CREATE TABLE Users(
     adresse VARCHAR (150)
 );
 
+CREATE TABLE Emprunts(
+    idEmprunt INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nb INT
+);
+
 CREATE TABLE Medias(
     idMedias INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     genre VARCHAR (60)
-    FK
 );
 
 CREATE TABLE Livres(
